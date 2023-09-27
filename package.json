@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "node": "^20.7.0",
+    "qr-image": "^3.2.0"
+  },
+  "name": "keplerde_study",
+  "version": "1.0.0",
+  "description": "I need more practice",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Denis",
+  "license": "ISC"
+}

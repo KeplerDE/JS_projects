@@ -1,0 +1,16 @@
+/* 
+1. Use the inquirer npm package to get user input.
+2. Use the qr-image npm package to turn the user entered URL into a QR code image.
+3. Create a txt file to save the user input using the native fs node module.
+*/
+
+/*
+1. Используйте пакет npm inquirer для получения данных от пользователя.
+2. Используйте пакет npm qr-image, чтобы превратить введенный пользователем URL-адрес в изображение QR-кода.
+3. Создайте текстовый файл для сохранения введенных пользователем данных с помощью собственного модуля узла fs.
+*/
+
+
+npm i qr-image
+
+npm i qr-image
