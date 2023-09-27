@@ -8,6 +8,13 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const port = 3000;
 
+
+/*
+
+middleware для обработки данных, отправленных из HTML формы. 
+Это позволяет вашему приложению правильно интерпретировать данные из формы и делает их доступными в объекте req.body.
+
+*/
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
