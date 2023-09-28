@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Taco Recipes</title>
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+</head>
+
+<body>
+  <h1>Taco Town 🌮</h1>
+
+  <!-- <form action="/recipe" method="POST" class="buttons">: Этот элемент <form> определяет форму.
+     Атрибут action указывает, что при отправке формы данные будут отправлены на URL /recipe, 
+     а атрибут method указывает метод отправки как POST. Атрибут class добавляет класс "buttons" 
+     для стилизации или обработки через CSS или JavaScript. -->
+
+
+     <!-- <button type="submit" value="chicken" name="choice">🍗</button>:
+      Это кнопка, которая отправит POST-запрос. type="submit" указывает, 
+      что она предназначена для отправки формы. value="chicken" устанавливает значение, 
+      которое будет отправлено на сервер при выборе этой кнопки.
+      name="choice" указывает имя параметра, который будет отправлен на сервер, а именно "choice".
+      В данном случае, если выбрана эта кнопка, на сервер будет отправлено значение "chicken". -->
+
+
+  <form action="/recipe" method="POST" class="buttons">
+    <button type="submit" value="chicken" name="choice">🍗</button>
+    <button type="submit" value="beef" name="choice">🥩</button>
+    <button type="submit" value="fish" name="choice">🐟</button>
+  </form>
+
+  
+  <div id="recipeContainer" class="hidden">
+
+    <!-- If no recipe yet, show: -->
+    <h2>Pick your favourite taco ingredient 👆</h2>
+    <!-- Else, show the recipe name e.g. <h2>Recipe name</h2>-->
+
+    <h3>Ingredients:</h3>
+    <ul id="ingredientsList">
+      <li>Protein name, protein preparation</li>
+      <li>Salsa name</li>
+      <li>Every other topping</li>
+    </ul>
+
+
+
+  </div>
+</body>
+
+</html>
